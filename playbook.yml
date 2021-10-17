@@ -1,8 +1,8 @@
 ---
-  - name: run apt update
+  - name: install nano
     hosts: pve_nodes
     tasks:
-      - name: apt update
+      - name: install nanos latest version
         apt:
           name: nano
           state: latest
