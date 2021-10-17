@@ -4,4 +4,5 @@
     tasks:
       - name: apt update
         apt:
-          update_cache: yes
+          name: nano
+          state: latest
